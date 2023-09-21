@@ -1,0 +1,120 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(images/duvar.jpg);
+  /* Arka planın tekrarlanmasını engeller */
+  background-size: cover;
+  /* Arka plan resminin pencerenin boyutuna otomatik olarak uyum sağlamasını sağlar */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slides {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6px;
+  background: white;
+  border-radius: 10px;
+  border-bottom: 8px solid darken(#ffdb42, 15%);
+}
+
+
+.slides ul {
+  display: block;
+  padding: 0;
+  list-style: none;
+  width: 450px;
+  /* Puzzle genişliği artırıldı */
+  height: 450px;
+  /* Puzzle yüksekliği artırıldı */
+  font-size: 0;
+  position: relative;
+  z-index: 1;
+  background: whitesmoke;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.slides ul li {
+  display: block;
+  position: absolute;
+  width: 150px;
+  /* Her parça 150x150 piksel olarak büyütüldü */
+  height: 150px;
+  /* Her parça 150x150 piksel olarak büyütüldü */
+  padding: 3px;
+  transition: 0.2s ease;
+}
+
+
+.slides ul li button {
+  display: block;
+  border: 0;
+  width:100%;
+  height: 100%;
+  border-radius: 5px;
+  position: relative;
+  background: none no-repeat 0 0/300% auto #d6d6d6;
+}
+
+.slides ul li button:focus,
+.slides ul li button:active {
+  outline: 0;
+}
+
+.slides ul li button:hover {
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Dosya seçme düğmesi tasarımı */
+input[type="file"] {
+  display: none;
+  /* Gerçek dosya yükleme düğmesini gizler */
+}
+
+#image-input-label {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#image-input-label:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Diğer butonlar için stil */
+.button-container button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  /* Butonlar arasında boşluk bırakır */
+}
+
+.button-container button:hover {
+  background-color: white;
+  color: black;
+}
+

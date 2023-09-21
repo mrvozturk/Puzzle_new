@@ -1,0 +1,56 @@
+@media (max-width: 568px) {
+    .slides {
+        padding: 12px;
+        border-radius: 1px;
+        background-size: auto;
+        left: 65%;
+        border-radius: 20px;
+        margin-top: 50%;
+        /* Yükseklik ayarını değiştirebilirsiniz */
+    }
+}
+
+@media (max-width: 568px) {
+    .slides ul {
+        padding: 0;
+        list-style: none;
+        width: 450px;
+        /* Puzzle genişliği artırıldı */
+        height: 450px;
+        /* Puzzle yüksekliği artırıldı */
+        font-size: 0;
+        position: relative;
+        z-index: 1;
+        background: whitesmoke;
+        border-radius: 6px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 568px) {
+
+    /* Parça boyutunu ayarlayın ve box-sizing'i ayarlayın */
+    .slides ul li {
+        width: calc(33.333% - 2px);
+        height: calc(33.333% - 2px);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+
+}
+
+@media (max-width: 568px) {
+    .button-container {
+
+        margin-left: 30%;
+
+    }
+
+    .button-container button {
+        margin: 10px auto;
+        /* Dikeyde 10px boşluk bırakmak için */
+    }
+}

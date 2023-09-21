@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Oyunu</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+  <link rel="stylesheet" media="(max-width:568px)" href="css/mobil.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="slides">
+      <ul>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <label for="image-input" id="image-input-label">Resim Seç</label>
+    <input type="file" id="image-input" accept="image/*">
+    <button id="shuffle-button" onclick="shufflePuzzle()">Karıştır</button>
+    <button id="new-photo-button" onclick="loadNewPhoto()">Yeni Oyun</button>
+    <img id="new-image" src="" alt="Yeni Fotoğraf" style="display: none;">
+  </div>
+
+ 
+  <script src="index.js"></script>
+</body>
+
+</html>
