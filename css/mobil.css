@@ -1,9 +1,9 @@
 @media (max-width: 568px) {
     .slides {
-        padding: 25px;
+        padding: auto;
         border-radius: 1px;
         background-size: auto;
-        left: 65%;
+        left:229px;
         border-radius: 20px;
         margin-top: 50%;
         /* Yükseklik ayarını değiştirebilirsiniz */
