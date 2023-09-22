@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
-  <link rel="stylesheet" media="(max-width:500px)" href="css/mobil.css">
+  <link rel="stylesheet" media="(max-width:568px)" href="css/mobil.css">
 </head>
 
 <body>
@@ -34,11 +34,10 @@
   </div>
 
   <div class="button-container">
-    <label for="image-input" class="small-button" id="image-input-label">Resim Seç</label>
+    <label for="image-input"  id="image-input-label">Resim Seç</label>
     <input type="file" id="image-input" accept="image/*">
     <button id="new-photo-button" onclick="loadNewPhoto()">Yeni Oyun</button>
-    <button id="shuffle-button" class="small-button1" onclick="shufflePuzzle()">Karıştır</button>
-
+    <button id="shuffle-button"  onclick="shufflePuzzle()">Karıştır</button>
     <img id="new-image" src="" alt="Yeni Fotoğraf" style="display: none;">
   </div>
 

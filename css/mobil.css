@@ -34,21 +34,19 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 568px) {
     .button-container {
-        flex-direction: column; /* Öğeleri alt alta sıralayın */
-        margin-left: 0; /* margin-left değerini sıfırlayın */
-        justify-content: flex-start; /* İçeriği sola hizalayın */
-        align-items: flex-start; /* Öğeleri yukarıda hizalayın */
-        text-align: left; /* Metni sola hizalayın */
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      margin-left: 5rem;
     }
-
     .button-container button {
-        margin: 10px 0; /* Alt ve üstte boşluk bırakın, sağ ve sol boşluğu sıfırlayın */
+      flex: 1;
+      width: auto;
+      margin: 5px 0;
+     
     }
-
-    .small-button {
-        padding: 0; /* Padding'i kaldırın */
-    }
-}
-
+  }
+  
