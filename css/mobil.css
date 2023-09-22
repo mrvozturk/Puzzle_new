@@ -34,19 +34,22 @@
     box-sizing: border-box;
 }
 
-
 @media (max-width: 568px) {
     .button-container {
       display: flex;
       flex-direction: column;
-      align-items: stretch;
-      margin-left: 5rem;
+      align-items: flex-start;
+      margin-left: -16rem;
     }
+    .button-container label,
     .button-container button {
       flex: 1;
-      width: auto;
+      width: 100%;
       margin: 5px 0;
-     
+    }
+    #shuffle-button {
+      width: 99%; /* Karıştır butonunu diğerleri ile aynı boyutta yapar */
     }
   }
+  
   
