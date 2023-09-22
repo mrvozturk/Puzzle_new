@@ -45,13 +45,16 @@
 @media (max-width: 568px) {
     .button-container {
         margin-left: 23%;
-    
-      
     }
-    
+
     .button-container button {
-        margin: 20px 0 auto;
-    
+        margin: 10px 10px;
+        /* Dikeyde 10px boşluk bırakmak için */
     }
+
+    .small-button {
+        padding: 0 10px; 
+    }
+   
 
 }
