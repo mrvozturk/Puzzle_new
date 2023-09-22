@@ -231,3 +231,6 @@ puzzleTiles, oyun tahtasındaki parçaların düğmelerini seçer.
 imageLoaded değişkeni, resmin yüklendiğini kontrol etmek için kullanılır.
 loadImage işlevi, kullanıcının seçtiği resmi oyun tahtasındaki her parçanın arka planına ekler.
 imageInput.onchange olay dinleyicisi, kullanıcı bir resim seçtiğinde çalışır ve seçilen resmi loadImage işlevine ileterek oyun tahtasına ekler.
+
+<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/ed8e5ab2-7074-4bc6-b9a9-7d1ec191bec8" width="250px" height="500px">
+
