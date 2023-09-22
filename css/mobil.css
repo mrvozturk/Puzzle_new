@@ -34,6 +34,7 @@
 
 @media (max-width: 568px) {
     .button-container {
+        margin-top: 12.5rem;
         position: absolute;
         display: flex;
         flex-direction: column;
