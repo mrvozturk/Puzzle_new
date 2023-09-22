@@ -3,8 +3,12 @@ body {
   padding: 0;
   margin: 0;
   background-image: url(images/duvar.jpg);
-  /* Arka planın tekrarlanmasını engeller */
   background-size: cover;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* Arka plan resminin pencerenin boyutuna otomatik olarak uyum sağlamasını sağlar */
 }
 
@@ -13,6 +17,7 @@ body {
 }
 
 .slides {
+  flex-direction: column;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -21,6 +26,7 @@ body {
   background: white;
   border-radius: 10px;
   border-bottom: 8px solid darken(#ffdb42, 15%);
+
 }
 
 
@@ -55,7 +61,7 @@ body {
 .slides ul li button {
   display: block;
   border: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
   border-radius: 5px;
   position: relative;
@@ -117,4 +123,3 @@ input[type="file"] {
   background-color: white;
   color: black;
 }
-

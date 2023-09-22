@@ -1,17 +1,21 @@
-@media (max-width: 568px) {
+@media (max-width: 500px) {
     .slides {
+        flex-direction: column;
         padding: auto;
         border-radius: 1px;
         background-size: auto;
         left: 232px;
         border-radius: 20px;
         margin-top: 50%;
-        /* Yükseklik ayarını değiştirebilirsiniz */
+        flex-direction: column;
+        display: flex;
+        
     }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 500px) {
     .slides ul {
+        flex-direction: column;
         padding: 0;
         list-style: none;
         width: 450px;
@@ -27,10 +31,11 @@
     }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 500px) {
 
     /* Parça boyutunu ayarlayın ve box-sizing'i ayarlayın */
     .slides ul li {
+       
         width: calc(33.333% - 2px);
         height: calc(33.333% - 2px);
         margin: 0;
@@ -42,9 +47,14 @@
 
 }
 
-@media (max-width: 568px) {
+@media (max-width: 500px) {
     .button-container {
+        flex-direction: column;
         margin-left: 23%;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+       
     }
 
     .button-container button {
@@ -53,8 +63,8 @@
     }
 
     .small-button {
-        padding: 0 10px; 
+        padding: 0 10px;
     }
-   
+
 
 }
