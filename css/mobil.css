@@ -1,70 +1,54 @@
-@media (max-width: 500px) {
-    .slides {
-        flex-direction: column;
-        padding: auto;
-        border-radius: 1px;
-        background-size: auto;
-        left: 232px;
-        border-radius: 20px;
-        margin-top: 50%;
-        flex-direction: column;
-        display: flex;
-        
-    }
+.slides {
+    flex-direction: column;
+    padding: auto;
+    border-radius: 1px;
+    background-size: auto;
+    left: 232px;
+    border-radius: 20px;
+    margin-top: 50%;
+    display: flex;
+
 }
 
-@media (max-width: 500px) {
-    .slides ul {
-        flex-direction: column;
-        padding: 0;
-        list-style: none;
-        width: 450px;
-        /* Puzzle genişliği artırıldı */
-        height: 450px;
-        /* Puzzle yüksekliği artırıldı */
-        font-size: 0;
-        position: relative;
-        z-index: 1;
-        background: whitesmoke;
-        border-radius: 6px;
-        padding: 5px;
-    }
+.slides ul {
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+    width: 450px;
+    /* Puzzle genişliği artırıldı */
+    height: 450px;
+    /* Puzzle yüksekliği artırıldı */
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+    background: whitesmoke;
+    border-radius: 6px;
+    padding: 5px;
 }
 
-@media (max-width: 500px) {
-
-    /* Parça boyutunu ayarlayın ve box-sizing'i ayarlayın */
-    .slides ul li {
-       
-        width: calc(33.333% - 2px);
-        height: calc(33.333% - 2px);
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-
-    }
-
-
+.slides ul li {
+    width: calc(33.333% - 2px);
+    height: calc(33.333% - 2px);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @media (max-width: 500px) {
     .button-container {
-        flex-direction: column;
-        margin-left: 23%;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-       
+        flex-direction: column; /* Öğeleri alt alta sıralayın */
+        margin-left: 0; /* margin-left değerini sıfırlayın */
+        justify-content: flex-start; /* İçeriği sola hizalayın */
+        align-items: flex-start; /* Öğeleri yukarıda hizalayın */
+        text-align: left; /* Metni sola hizalayın */
     }
 
     .button-container button {
-        margin: 10px 10px;
-        /* Dikeyde 10px boşluk bırakmak için */
+        margin: 10px 0; /* Alt ve üstte boşluk bırakın, sağ ve sol boşluğu sıfırlayın */
     }
 
     .small-button {
-        padding: 0 10px;
+        padding: 0; /* Padding'i kaldırın */
     }
-
-
 }
+

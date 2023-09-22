@@ -1,5 +1,6 @@
 html,
 body {
+
   padding: 0;
   margin: 0;
   background-image: url(images/duvar.jpg);
@@ -15,8 +16,13 @@ body {
 * {
   box-sizing: border-box;
 }
-
+.container{
+  margin: 0 auto;
+}
 .slides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-direction: column;
   position: absolute;
   top: 50%;
@@ -35,9 +41,7 @@ body {
   padding: 0;
   list-style: none;
   width: 450px;
-  /* Puzzle genişliği artırıldı */
   height: 450px;
-  /* Puzzle yüksekliği artırıldı */
   font-size: 0;
   position: relative;
   z-index: 1;
@@ -50,9 +54,7 @@ body {
   display: block;
   position: absolute;
   width: 150px;
-  /* Her parça 150x150 piksel olarak büyütüldü */
   height: 150px;
-  /* Her parça 150x150 piksel olarak büyütüldü */
   padding: 3px;
   transition: 0.2s ease;
 }
@@ -104,7 +106,6 @@ input[type="file"] {
   color: black;
 }
 
-/* Diğer butonlar için stil */
 .button-container button {
   display: inline-block;
   padding: 10px 20px;
@@ -116,7 +117,6 @@ input[type="file"] {
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-left: 10px;
-  /* Butonlar arasında boşluk bırakır */
 }
 
 .button-container button:hover {

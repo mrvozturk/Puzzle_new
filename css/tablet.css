@@ -1,37 +1,46 @@
-@media (max-width: 768px) {
-  .slides {
-    background-size: auto;
-   
-  
-   }
+.slides {
+  flex-direction: column;
+  padding: auto;
+  border-radius: 1px;
+  background-size: auto;
+  border-radius: 20px;
+  display: flex;
+
 }
 
-@media (max-width: 768px) {
-
-  /* Parça boyutunu ayarlayın ve box-sizing'i ayarlayın */
-  .slides ul li {
-    width: calc(33.333% - 1px);
-    height: calc(33.333% - 1px);
-    margin: 0;
-    padding: 0;
-
-    box-sizing: border-box;
-  }
-
-  /* Diğer özelleştirmeleri burada ekleyin */
+.slides ul {
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  width: 450px;
+  /* Puzzle genişliği artırıldı */
+  height: 450px;
+  /* Puzzle yüksekliği artırıldı */
+  font-size: 0;
+  position: relative;
+  z-index: 1;
+  background: whitesmoke;
+  border-radius: 6px;
+  padding: 5px;
 }
+
+.slides ul li {
+  width: calc(33.333% - 2px);
+  height: calc(33.333% - 2px);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   .button-container {
-    margin-top: 100px;
-  }
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50%;
+    margin-right: -0.4rem;
 
-  button#shuffle-button {
-    bottom: 50px;
-    /* Yeni alt boşluk değeri */
-  }
-
-  button#new-photo-button {
-    bottom: -60px;
-    /* Yeni alt boşluk değeri */
   }
 }
