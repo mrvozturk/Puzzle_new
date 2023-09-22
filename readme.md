@@ -234,3 +234,6 @@ imageInput.onchange olay dinleyicisi, kullanıcı bir resim seçtiğinde çalı�
 
 <img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/ed8e5ab2-7074-4bc6-b9a9-7d1ec191bec8" width="250px" height="500px">
 
+<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/1c947c6a-d7b9-4ec6-8a58-9950b026d43b" width="250px" height="500px">
+
+
