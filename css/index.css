@@ -1,6 +1,5 @@
 html,
 body {
-
   padding: 0;
   margin: 0;
   background-image: url(images/duvar.jpg);
@@ -10,16 +9,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* Arka plan resminin pencerenin boyutuna otomatik olarak uyum sağlamasını sağlar */
 }
 
 * {
   box-sizing: border-box;
 }
-.container{
-  margin: 0 auto;
-}
+
 .slides {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,6 +34,7 @@ body {
 
 
 .slides ul {
+  position: fixed;
   display: block;
   padding: 0;
   list-style: none;
@@ -87,7 +85,6 @@ body {
 /* Dosya seçme düğmesi tasarımı */
 input[type="file"] {
   display: none;
-  /* Gerçek dosya yükleme düğmesini gizler */
 }
 
 #image-input-label {

@@ -18,8 +18,8 @@ var app = {
           var x = index % 3;
           var y = Math.floor(index / 3);
 
-          tile.style.top = (y * 150) + "px"; // Her parça 150 piksel yüksekliğinde
-          tile.style.left = (x * 150) + "px"; // Her parça 150 piksel genişliğinde
+          tile.style.top = (y * 150) + "px"; 
+          tile.style.left = (x * 150) + "px"; 
 
           tile.setAttribute("x", x);
           tile.setAttribute("y", y);

@@ -13,9 +13,7 @@
   padding: 0;
   list-style: none;
   width: 450px;
-  /* Puzzle genişliği artırıldı */
   height: 450px;
-  /* Puzzle yüksekliği artırıldı */
   font-size: 0;
   position: relative;
   z-index: 1;
@@ -40,7 +38,7 @@
     align-items: center;
     text-align: center;
     margin-top: 50%;
-    margin-right: -0.4rem;
+    margin-right: 0.1rem;
 
   }
 }
