@@ -232,8 +232,10 @@ imageLoaded değişkeni, resmin yüklendiğini kontrol etmek için kullanılır.
 loadImage işlevi, kullanıcının seçtiği resmi oyun tahtasındaki her parçanın arka planına ekler.
 imageInput.onchange olay dinleyicisi, kullanıcı bir resim seçtiğinde çalışır ve seçilen resmi loadImage işlevine ileterek oyun tahtasına ekler.
 
-<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/ed8e5ab2-7074-4bc6-b9a9-7d1ec191bec8" width="250px" height="500px">
+<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/de049667-be3c-493f-85c7-c35a085a0138" width="250px" height="500px">
 
-<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/1c947c6a-d7b9-4ec6-8a58-9950b026d43b" width="250px" height="500px">
+<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/4050c747-cb89-40f4-ae81-48cd3ddc1aae" width="250px" height="500px">
+
+
 
 
