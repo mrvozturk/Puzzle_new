@@ -1,3 +1,14 @@
+
+
+<h1 align="center">🧩 Puzzle Oyunu'na Hoş Geldiniz! 🧩</h1>
+
+
+Merhabalar🙃Bu oyun, zihinsel becerilerinizi sınayacak ve sizi bulmacaların büyülü dünyasına götürecek. Hem basit hem de ilgi çekici olan bu oyun, her yaş grubundan oyuncu için uygundur. Hemen oynamak için tıklayın (https://lnkd.in/dWic9wfG) 
+
+<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/de049667-be3c-493f-85c7-c35a085a0138" width="250px" height="500px">
+
+<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/4050c747-cb89-40f4-ae81-48cd3ddc1aae" width="250px" height="500px">
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -231,11 +242,6 @@ puzzleTiles, oyun tahtasındaki parçaların düğmelerini seçer.
 imageLoaded değişkeni, resmin yüklendiğini kontrol etmek için kullanılır.
 loadImage işlevi, kullanıcının seçtiği resmi oyun tahtasındaki her parçanın arka planına ekler.
 imageInput.onchange olay dinleyicisi, kullanıcı bir resim seçtiğinde çalışır ve seçilen resmi loadImage işlevine ileterek oyun tahtasına ekler.
-
-<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/de049667-be3c-493f-85c7-c35a085a0138" width="250px" height="500px">
-
-<img title="Doğayla yaşam" alt="Alt text" src="https://github.com/mrvozturk/Puzzle_new/assets/133267808/4050c747-cb89-40f4-ae81-48cd3ddc1aae" width="250px" height="500px">
-
 
 
 
